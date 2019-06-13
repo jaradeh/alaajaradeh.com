@@ -104,6 +104,95 @@ AppAsset::register($this);
     <head>
         <meta charset="<?= Yii::$app->charset ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <meta name="author" content="Alaa Jaradeh">
+        <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+
+
+
+        <meta name="title" content="Alaa Jaradeh">
+        <meta name="type" content="business, software development, web development, mobile development, mobile apps, mobile app, mobile applocation, mobile applications"/>
+        <meta name="description" content="Alaa Jaradeh an Amman - Jordan based full stack engineer , web development , mobile development, software development which can be fully, part or freelance hired">
+        <meta name="keywords" content="web development, website developement, website developer, php , mobile application, mobile app, software developer, software development, software engineer, react-native , react native, react native developer, react-native development, amman, amman jordan, jordan, freelance amman, amman freelance, website freelancer amman, website freelancer amman jordan, ">
+        <meta name="subject" content="A technology house and agency to create websites, mobile applications and softwares">
+        <meta name="copyright"content="Alaa Jaradeh">
+        <meta name="language" content="EN,AR">
+        <meta name="robots" content="index,follow" />
+        <meta name="revised" content="<?php echo date('d m Y') ?>" />
+        <meta name="Classification" content="Business">
+        <meta name="author" content="Alaa Jaradeh, info@alaajaradeh.com">
+        <meta name="reply-to" content="info@alaajaradeh.com">
+        <meta name="owner" content="Alaa Jaradeh">
+        <meta name="url" content="https://www.alaajaradeh.com">
+        <meta name="identifier-URL" content="https://www.alaajaradeh.com">
+        <meta name="directory" content="submission">
+        <meta name="category" content="Technology, business,Websites, Web Development, Mobile Applications, Mobile App Development, Software Development">
+        <meta name="coverage" content="Worldwide">
+        <meta name="distribution" content="Global">
+        <meta name="rating" content="General">
+        <meta name="revisit-after" content="1 days">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache">
+
+
+
+
+
+
+
+        <meta name="og:title" content="Alaa Jaradeh"/>
+        <meta name="og:type" content="business, software development, web development, mobile development, mobile apps, mobile app, mobile applocation, mobile applications"/>
+        <meta name="og:url" content="https://www.alaajaradeh.com"/>
+        <meta name="og:image" content="https://www.alaajaradeh.com/images/my_photo.png"/>
+        <meta name="og:site_name" content="alaajaradeh"/>
+        <meta name="og:description" content="Alaa Jaradeh an Amman - Jordan based full stack engineer , web development , mobile development, software development which can be fully, part or freelance hired"/>
+
+        <meta name="fb:page_id" content="10155529074663537" />
+
+        <meta name="og:email" content="info@alaajaradeh.com"/>
+        <meta name="og:phone_number" content="+962799204541"/>
+        <meta name="og:fax_number" content="+962799204541"/>
+
+        <meta name="og:latitude" content="31.952183"/>
+        <meta name="og:longitude" content="35.916276"/>
+        <meta name="og:street-address" content="SECOND CIRCLE - JABAL AMMAN"/>
+        <meta name="og:locality" content="Amman"/>
+        <meta name="og:region" content="JO"/>
+        <meta name="og:postal-code" content="11181"/>
+        <meta name="og:country-name" content="JORDAN"/>
+
+        <meta property="og:type" content="technology.business"/>
+        <meta property="og:points" content="POINTS_FOR_ACHIEVEMENT"/>
+
+<!--        <meta property="og:video" content="http://example.com/awesome.swf" />
+        <meta property="og:video:height" content="640" />
+        <meta property="og:video:width" content="385" />
+        <meta property="og:video:type" content="application/x-shockwave-flash" />
+        <meta property="og:video" content="http://example.com/html5.mp4" />
+        <meta property="og:video:type" content="video/mp4" />
+        <meta property="og:video" content="http://example.com/fallback.vid" />
+        <meta property="og:video:type" content="text/html" />
+
+        <meta property="og:audio" content="http://example.com/amazing.mp3" />
+        <meta property="og:audio:title" content="Amazing Song" />
+        <meta property="og:audio:artist" content="Amazing Band" />
+        <meta property="og:audio:album" content="Amazing Album" />
+        <meta property="og:audio:type" content="application/mp3" />-->
+
+
+
+
+
+
+
+
+
+
+
+
         <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
         <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
