@@ -112,7 +112,7 @@ AppAsset::register($this);
 
 
 
-        <meta name="title" content="Alaa Jaradeh">
+        <meta name="title" content="Alaa Jaradeh Full Stack Engineer, Mobile Application Developer, Website Development, Web Freelance">
         <meta name="type" content="business, software development, web development, mobile development, mobile apps, mobile app, mobile applocation, mobile applications"/>
         <meta name="description" content="Alaa Jaradeh an Amman - Jordan based full stack engineer , web development , mobile development, software development which can be fully, part or freelance hired">
         <meta name="keywords" content="web development, website developement, website developer, php , mobile application, mobile app, software developer, software development, software engineer, react-native , react native, react native developer, react-native development, amman, amman jordan, jordan, freelance amman, amman freelance, website freelancer amman, website freelancer amman jordan, ">
