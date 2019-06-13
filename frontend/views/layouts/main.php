@@ -95,7 +95,7 @@ function get_client_ip() {
 //    }
 //}
 
-$this->title = "Alaa Jaradeh";
+$this->title = "Alaa Jaradeh Full Stack Engineer, Mobile Application Developer, Website Development, Web Freelance";
 AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -143,7 +143,7 @@ AppAsset::register($this);
 
 
 
-        <meta name="og:title" content="Alaa Jaradeh"/>
+        <meta name="og:title" content="Alaa Jaradeh Full Stack Engineer, Mobile Application Developer, Website Development, Web Freelance"/>
         <meta name="og:type" content="business, software development, web development, mobile development, mobile apps, mobile app, mobile applocation, mobile applications"/>
         <meta name="og:url" content="https://www.alaajaradeh.com"/>
         <meta name="og:image" content="https://www.alaajaradeh.com/images/my_photo.png"/>
