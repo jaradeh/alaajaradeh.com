@@ -103,8 +103,7 @@ class SiteController extends Controller {
     public function actionAbout() {
         return $this->render('about');
     }
-    
-    
+
     /**
      * Displays cam page.
      *
@@ -253,14 +252,29 @@ class SiteController extends Controller {
             $model->email = $_POST['email'];
             $model->message = $_POST['message'];
             $model->date = time();
-            if ($model->save()) {
-                $msg = array("type" => "success", "message" => "Thank you! I will review the message and get back to you asap.");
-                header('Content-Type: application/json');
-                echo json_encode($msg);
-            } else {
-                $msg = array("type" => "danger", "message" => "Something went wrong! please try again later.");
-                header('Content-Type: application/json');
-                echo json_encode($msg);
+
+
+            $secretKey = "6LfxnKgUAAAAAM0jF3BsJc25H0KXEB7TAjnOwuaP";
+            $responseKey = $_POST['g-recaptcha-response'];
+            $userIP = $_SERVER['REMOTE_ADDR'];
+            $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$userIP";
+            $response = file_get_contents($url);
+            $response = json_decode($response);
+
+            if ($response->success) {
+                if ($model->save()) {
+                    $msg = array("type" => "success", "message" => "Thank you! I will review the message and get back to you asap.");
+                    header('Content-Type: application/json');
+                    echo json_encode($msg);
+                } else {
+                    $msg = array("type" => "danger", "message" => "Something went wrong! please try again later.");
+                    header('Content-Type: application/json');
+                    echo json_encode($msg);
+                }
+            }else{
+                $msg = array("type" => "danger", "message" => "Invalid Captcha, please try again");
+                    header('Content-Type: application/json');
+                    echo json_encode($msg);
             }
         } else {
             return $this->render('contact', [

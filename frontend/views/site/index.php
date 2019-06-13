@@ -805,6 +805,7 @@ $years_of_ex = $this_year - $year_started_developing;
                             <div class="block-title">
                                 <h3>Contact Form</h3>
                             </div>
+                             <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                             <form id="contact-form" method="post" action="/contact" novalidate="true">
 
                                 <div class="messages"></div>
@@ -830,7 +831,7 @@ $years_of_ex = $this_year - $year_started_developing;
                                         <i class="form-control-icon fa fa-comment"></i>
                                         <div class="help-block with-errors"></div>
                                     </div>
-
+                                    <div class="g-recaptcha" data-sitekey="6LfxnKgUAAAAAEFeYA627M-JC84zBvSYQ9x_i-N6"></div>
                                     <input type="submit" class="button btn-send disabled" value="Send message">
                                 </div>
                             </form>
